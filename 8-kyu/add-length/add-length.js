@@ -1,0 +1,1 @@
+const addLength = str => Array.isArray(str) ? str.map(e => e += ` ${e.length}`) : str.split(' ').map(e => e + ` ${e.length}`);
