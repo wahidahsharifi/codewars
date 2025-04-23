@@ -1,0 +1,1 @@
+const solve = s => s.split('').reduce((a,c) => c == c.toUpperCase() ? a += 1 : a += -1 ,0) < 1 ? s.toLowerCase() : s.toUpperCase();
