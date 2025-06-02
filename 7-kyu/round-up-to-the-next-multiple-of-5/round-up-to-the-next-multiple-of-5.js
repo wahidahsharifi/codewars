@@ -1,4 +1,7 @@
 function roundToNext5(n){
-  while(n % 5 !== 0) n++;
-  return n;
+  for(i = n; n == n; i++) {
+    if(i % 5 == 0) {
+      return i
+    }
+  }
 }
